@@ -3,7 +3,7 @@ function placeOrder(){
     window.open("delivery_address.html");
 }
     
-    
+
 function plusButton1(){
 
     var i=0;
@@ -13,7 +13,7 @@ function plusButton1(){
     document.getElementById("qtyInput01").value = i;
     
 }
-    
+
 function minusButton1(){
 
     var i=0;
@@ -23,7 +23,7 @@ function minusButton1(){
     if (i<0){
         i=0;
     }
-    document.getElementById("qtyInput01").value = i;
+    document.getElementById("qtyInput01").value =i;
     
 }
 
@@ -47,6 +47,7 @@ function minusButton2(){
         i=0;
     }
     document.getElementById("qtyInput02").value = i;
+}
     
 
 
